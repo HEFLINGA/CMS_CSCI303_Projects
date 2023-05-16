@@ -1,0 +1,148 @@
+/*Success and Error colors*/
+.success { color: green; font-weight: bold; }
+.error { color: #911234; font-weight: bold; }
+.informative { color: blue; font-weight: lighter; }
+
+/*General stuff*/
+header {
+    background-color: #FB8B24;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 30px;
+    font-weight: bold;
+    color: black;
+}
+h1, h2, h3 {
+    font-weight: bolder;
+    color: black;
+}
+h2 {
+    text-align: center;
+}
+body {
+    background-color: #FBFEFB;
+}
+footer {
+    padding: 10px;
+}
+
+/*Table styling*/
+table {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+th {
+    text-align: left;
+}
+/*"Content" styling*/
+table.view_content {
+    border-collapse: collapse;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+table.view_content th {
+    border-collapse: collapse;
+    border-right: 2px solid;
+    padding-left: 4px;
+}
+table.view_content td {
+    padding-left: 12px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+table.view_content h4 {
+    font-style: italic;
+}
+
+/*Header navigation bar*/
+nav.main {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    padding: 12px 12px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #E36414;
+}
+/*Actively clicked main nav button*/
+nav.main p {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+nav.main .active {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px 1px 5px 5px;
+    border-color: black transparent;
+    background-color: #ae354c;
+    color: white;
+}
+/*NOT clicked main nav button*/
+nav.main a {
+    padding: 6px;
+    margin: 6px;
+    text-decoration: none;
+}
+nav.main .inactive {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px 1px 5px 5px;
+    border-color: black transparent;
+    background-color: #9A031E;
+    color: white;
+}
+
+/*Form styling stuff*/
+div.form_reg {
+    padding: 20px 50px 20px 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: #FCF6B1;
+}
+/*Centering small forms*/
+div.form_small {
+    margin:auto;
+    width: 350px;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #FCF6B1;
+}
+/*Adjustments for medium forms*/
+div.form_medium {
+    margin:auto;
+    max-width: 75%;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #FCF6B1;
+}
+.label_text {
+    font-weight: bold;
+}
+input[type=email], input[type=text], input[type=password], select {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin:8px 8px;
+}
+/*Submit button styles*/
+input[type=submit] {
+    background-color: #FB8B24;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 5px 5px;
+}
+input[type=submit]:hover {
+    background-color: #E36414;
+}
+

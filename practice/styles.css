@@ -1,0 +1,54 @@
+/*Success and Error colors*/
+.success { color: green; }
+.error { color: crimson; }
+
+/*General stuff*/
+header {
+    background-color: #4DCCBD;
+    border-radius: 25px;
+    border: 1px solid;
+    padding: 30px;
+}
+header h1, h2 {
+    font-weight: bold;
+}
+body {
+    background-color: #FEFCFD;
+}
+footer {
+    padding: 10px;
+}
+
+/*Table styling*/
+table {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+th {
+    text-align: left;
+}
+
+/*Header navigation bar*/
+nav.main {
+    border: 1px solid;
+    padding: 12px 12px;
+    overflow: hidden;
+    background-color: #B2ABF2;
+}
+nav.main a {
+    padding: 6px;
+    margin: 5px;
+    text-decoration: none;
+}
+nav.main a.active {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px 1px 5px 5px;
+    border-color: black transparent;
+    background-color: #634B66;
+    color: white;
+}

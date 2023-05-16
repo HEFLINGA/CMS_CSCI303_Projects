@@ -1,0 +1,203 @@
+/*Success and Error colors*/
+.success { color: #0E2900; font-weight: bold; text-align: center; }
+.error {
+    color: red;
+    font-weight: bold;
+    padding: 4px;
+    border: dashed red 2px;
+    text-align: center;
+    background-color: black;
+}
+.error a {
+    color: white;
+}
+.informative { color: #DCE1DE; font-weight: bold; }
+
+.functionality {
+    text-align: left;
+    margin: auto;
+    width: 50%;
+}
+
+/*General CSS*/
+header {
+    padding: 10px;
+}
+header h1 {
+    text-align: center;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+h2 {
+    text-align: center;
+}
+body {
+    padding: 25px;
+    background: #9CC5A1;
+}
+
+/*Main header navigation CSS*/
+.main_nav {
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #1F2421;
+}
+.main_nav a {
+    float: left;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+.main_nav a:hover {
+    background-color: #216869;
+    color: white;
+}
+.main_nav a.clicked {
+    background-color: #216869;
+    color: white;
+}
+.main_nav a.login {
+    float: right;
+}
+
+/*Footer CSS*/
+footer {
+    text-align: center;
+    margin: 10px;
+}
+
+/*Form CSS*/
+.label_text {
+    font-weight: bold;
+    margin: 3px;
+}
+div.form_small {
+    margin: auto;
+    width: 350px;
+    border: 3px solid #1F2421;
+    border-radius: 5px;
+    padding: 20px;
+    color: #DCE1DE;
+    font-weight: normal;
+    background-color: #1C5659;
+}
+div.form_signup {
+    margin: auto;
+    border: 3px solid #1F2421;
+    border-radius: 5px;
+    padding: 20px;
+    color: #DCE1DE;
+    font-weight: normal;
+    background-color: #1C5659;
+}
+div.form_medium {
+    margin: auto;
+    border: 3px solid #1F2421;
+    border-radius: 5px;
+    padding: 20px;
+    color: #DCE1DE;
+    font-weight: normal;
+    background-color: #1C5659;
+}
+input[type=email], input[type=text], input[type=password], select {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin:8px 8px;
+}
+/*Submit button styles*/
+input[type=submit] {
+    background-color: #9CC5A1;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 5px 5px;
+}
+input[type=submit]:hover {
+    background-color: #49A078;
+}
+
+/*Books Viewing CSS*/
+.review {
+    background-color: #BFD9C2;
+    border: 2px solid #72AC78;
+    border-radius: 5px;
+}
+.item {
+    float: left;
+    width: 50%;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+.item {
+    float: left;
+}
+.left, .middle {
+    flex: 20%;
+}
+.right {
+    flex: 80%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #9CC5A1;
+    border: 2px solid #72AC78;
+    border-radius: 5px;
+}
+
+.review_search {
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid;
+    margin-bottom: 10px;
+}
+
+.users_search {
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid;
+    margin-bottom: 10px;
+}
+
+/*Table CSS*/
+table {
+    padding: 5px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+th, td {
+    border-bottom: 1px solid #1F2421;
+}
+th {
+    text-align: left;
+}
+
+/*Viewing a user*/
+.user {
+    background-color: #BFD9C2;
+    border: 2px solid #72AC78;
+    border-radius: 5px;
+}
+.left_user {
+    flex: 40%;
+}
+.right_user {
+    flex: 60%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #9CC5A1;
+    border: 2px solid #72AC78;
+    border-radius: 5px;
+}
